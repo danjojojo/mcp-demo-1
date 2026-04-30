@@ -143,6 +143,14 @@
   --gradient-blue-orange-light: linear-gradient(135deg, #98B8D9 0%, #FFF4E5 100%);
   --gradient-yellow-orange-dark: linear-gradient(135deg, #DD7B00 0%, #FCB618 100%);
   --gradient-yellow-orange-light: linear-gradient(135deg, #FCB618 0%, #FFE500 100%);
+
+  /* CIC Semantic UI Tokens — resolved from component Figma nodes */
+  /* These are a bluish-grey system distinct from the neutral/brand palette above */
+  --cic-surface: #F2F6F9;          /* neutral/grey/25   — list item bg, subtle surfaces */
+  --cic-surface-hover: #9DACBF;    /* neutral/grey/200  — hovered list item bg, trigger border, scrollbar track */
+  --cic-border: #D9E1E6;           /* border/default    — list item dividers */
+  --cic-text-body: #394D60;        /* text/body/default — body copy, scrollbar thumb */
+  --cic-text-heading: #003D84;     /* text/heading/default — field labels, headings */
 }
 
 .dark {
