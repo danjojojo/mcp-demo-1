@@ -1,6 +1,7 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
+@import "../styles/typography.css";
 
 @custom-variant dark (&:is(.dark *));
 
@@ -10,6 +11,8 @@
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
   --font-heading: var(--font-sans);
+  --font-tasa-explorer: var(--font-tasa-explorer);
+  --font-stack-sans-text: var(--font-stack-sans-text);
   --color-sidebar-ring: var(--sidebar-ring);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
@@ -81,6 +84,65 @@
   --sidebar-accent-foreground: oklch(0.205 0 0);
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
+
+  /* CIC Design System — Brand / Orange (primary brand, CTAs, interactive elements) */
+  --orange-25: #FFF4E5;
+  --orange-50: #FFBB66;
+  --orange-100: #F18702;
+  --orange-200: #DD7B00;
+  --orange-300: #DD7B00;
+
+  /* CIC Design System — Brand / Blue (secondary brand, backgrounds, navigation) */
+  --blue-25: #98B8D9;
+  --blue-50: #345373;
+  --blue-100: #163B58;
+  --blue-200: #17324D;
+  --blue-300: #17324D;
+
+  /* CIC Design System — Brand / Yellowish Orange (accent) */
+  --yellowish-orange-200: #F5A623;
+
+  /* CIC Design System — Brand / Golden Yellow (accent) */
+  --golden-yellow-100: #FEF3A0;
+  --golden-yellow-200: #FFE500;
+
+  /* CIC Design System — Neutral / Pure */
+  --neutral-white: #FFFFFF;
+  --neutral-black: #000000;
+
+  /* CIC Design System — Neutral / Grey (backgrounds, borders, disabled states) */
+  --grey-25: #F8F8F8;
+  --grey-50: #E5E5E5;
+  --grey-100: #E5E5E5;
+  --grey-200: #D6D6D6;
+  --grey-300: #606060;
+
+  /* CIC Design System — Neutral / MB-Grey (text, typography) */
+  --mb-grey-700: #343D46;
+  --mb-grey-800: #272D33;
+
+  /* CIC Design System — System / Red (error, destructive states) */
+  --sys-red-25: #D2B1B6;
+  --sys-red-50: #A83737;
+  --sys-red-100: #931011;
+  --sys-red-200: #760D0E;
+
+  /* CIC Design System — System / Green (success, positive states) */
+  --sys-green-25: #22903B;
+  --sys-green-50: #02751C;
+  --sys-green-100: #025E16;
+  --sys-green-200: #014611;
+
+  /* CIC Design System — System / Orange (warning, caution) */
+  --sys-orange-25: #FDE8B4;
+  --sys-orange-50: #FCB618;
+
+  /* CIC Design System — Gradients (decorative backgrounds) */
+  --gradient-blue-orange-dark: linear-gradient(135deg, #17324D 0%, #F18702 100%);
+  --gradient-blue-orange-mid: linear-gradient(135deg, #163B58 0%, #FCB618 100%);
+  --gradient-blue-orange-light: linear-gradient(135deg, #98B8D9 0%, #FFF4E5 100%);
+  --gradient-yellow-orange-dark: linear-gradient(135deg, #DD7B00 0%, #FCB618 100%);
+  --gradient-yellow-orange-light: linear-gradient(135deg, #FCB618 0%, #FFE500 100%);
 }
 
 .dark {
